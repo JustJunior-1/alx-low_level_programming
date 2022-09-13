@@ -1,33 +1,16 @@
-nclude "holberton.h"
-
+include "JustJunior-1.h"
 /**
- *
- *  * main - prints the string "Holberton" from a character array.
- *
- *   * Return: 0 on success.
- *
- *    */
-
+* main - prints the string "Holberton" from a character array.
+* Return: 0 on success.
+*/
 int main(void)
-
 {
-
-		char c[] = "Holberton";
-
-			int i;
-
-
-
-				for (i = 0; i < 9; i++)
-
-						{
-
-									_putchar(c[i]);
-
-										}
-
-					_putchar('\n');
-
-						return (0);
-
+char c[] = "Junior";
+int i;
+for (i = 0; i < 9; i++)
+{
+_putchar(c[i]);
+}
+_putchar('\n');
+return (0);
 }
