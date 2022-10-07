@@ -1,21 +1,23 @@
-#include "JustJunior-1.h"
+#include"main.h"
+
 /**
-* jack_bauer - prints time table in this format: HH:MM
-* Return: the sum of two numbers.
+ * jack_bauer- prints every minute of the day
 */
+
 void jack_bauer(void)
 {
-int h, m;
-for (h = 0; h < 24; h++)
-{
-for (m = 0; m < 60; m++)
-{
-_putchar((h / 10) + '0');
-_putchar((h % 10) + '0');
-_putchar(':');
-_putchar((m / 10) + '0');
-_putchar((m % 10) + '0');
-_putchar('\n');
-}
-}
+	int min, hr;
+
+	for (hr = 0; hr <= 23; ++hr)
+	{
+		for (min = 0; min <= 59; ++min)
+		{
+			_putchar((hr / 10) + 48);
+			_putchar((hr % 10) + 48);
+			_putchar(':');
+			_putchar((min / 10) + 48);
+			_putchar((min % 10) + 48);
+			_putchar('\n');
+		}
+	}
 }

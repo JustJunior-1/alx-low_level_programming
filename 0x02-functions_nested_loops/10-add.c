@@ -1,11 +1,17 @@
-#include "JustJunior-1.h"
+#include"main.h"
+
 /**
-* add - adds two numbers together.
-* @i: The first number to be added.
-* @j: The second number to be added.
-* Return: the sum of two numbers.
+ * add - add two integers
+ *
+ * @a: first input
+ * @b: second input
+ *
+ * Return: sum of a & b
 */
-int add(int i, int j)
+
+int add(int a, int b)
 {
-return (i + j);
+	int sum = a + b;
+
+	return (sum);
 }
